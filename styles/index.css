@@ -1,0 +1,42 @@
+@import url(reset.css);
+@import url(layout/header.css);
+@import url(layout/footer.css);
+@import url(pages/home.css);
+@import url(pages/product.css);
+@import url(pages/contact.css);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: all 200ms ease-in-out;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+.banner {
+  width: 100%;
+  box-shadow: 0 0 6rem #cccccc;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    font-weight: 500;
+  }
+}

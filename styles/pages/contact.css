@@ -1,0 +1,121 @@
+form {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 10%;
+}
+
+form label,
+form legend {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.8;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.input {
+  width: 100%;
+  max-width: 30rem;
+  font-size: 1rem;
+  padding: 0.8rem 1.2rem;
+  border-radius: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+textarea[class="input"] {
+  resize: none;
+  text-align: left;
+}
+
+fieldset {
+  width: 100%;
+  max-width: 30rem;
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 1rem 0;
+  gap: 1rem;
+}
+
+fieldset label {
+  font-size: 1.125rem;
+}
+
+.schedule {
+  padding: 0.8rem 1.2rem;
+  font-size: 1.125rem;
+  border-radius: 2rem;
+  margin: 0 0 1em;
+}
+
+.submit {
+  width: 100%;
+  max-width: 30rem;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  background: orange;
+  border: none;
+  border-radius: 2rem;
+  transition: 200ms all ease-in-out;
+  cursor: pointer;
+  margin: 1em 0 0;
+}
+
+.submit:hover {
+  background: darkorange;
+  transform: scale(1.05);
+}
+
+.checkbox {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 1em 0 1em;
+  font-size: 1rem;
+}
+
+.checkbox input {
+  margin: 0 0.5em;
+}
+
+.table-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 10%;
+}
+
+table {
+  width: 100%;
+  max-width: 30rem;
+}
+
+thead {
+  background: #555555;
+  color: white;
+  font-weight: bold;
+}
+
+td,
+th {
+  font-size: 1.2rem;
+  border: 1px solid #000000;
+  padding: 0.5rem 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .checkbox {
+    font-size: 1rem;
+    margin: 1em 0;
+  }
+
+  table {
+    margin: 2em auto;
+  }
+}
